@@ -8,10 +8,10 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Read the size of the matrix n, initialize a matrix a of size n \times (n+1) to store the augmented matrix, and an array x of size n for the solution. Populate the augmented matrix with user inputs.
+2. Iterate through the diagonal elements of the matrix. If any diagonal element a[i][i] is exactly 0.0, terminate the program with a "Divide by zero detected!" error to avoid invalid mathematical operations.
+3. Loop through each row to eliminate the coefficients below the diagonal. For each row j below row i, calculate the multiplier factor, and update the row elements
+4. Solve for the variables in reverse order. Then, systematically substitute the known values backwards to solve for the remaining variables x[i], and print the final solutions formatted to two decimal places.
 
 ## Program:
 ```
